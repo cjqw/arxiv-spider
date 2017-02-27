@@ -63,7 +63,7 @@ def st(length,x):
 os.makedirs('pdf-files',exist_ok=True)
 url_head = 'pdf/1702.'
 cnt = 0
-max_pdf = 1000
+max_pdf = 10
 with cd ('pdf-files'):
     for i in range (0,100000):
         s = st(5,i)
