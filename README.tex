@@ -1,0 +1,50 @@
+% Created 2017-03-21 二 20:12
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\author{Qiu Wei}
+\date{\today}
+\title{README}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.5.1 (Org mode 8.2.10)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Arxiv-Spider}
+\label{sec-1}
+This is a spider (or scrawl) to download papers in computer science area in \href{http://arxiv.org/}{arxiv.org}.
+The paper will be used in our prp project.
+\section{How to Use It}
+\label{sec-2}
+First,ensure you have installed python3 in your computer,then download the source code
+from github:
+\begin{verbatim}
+$ git clone https://github.com/cjqw/arxiv-spider ~/arxiv-spider
+\end{verbatim}
+Change the first line to specify your python3 path.
+Run the program directly and it will download 10 papers by default.
+\begin{verbatim}
+$ chmod a+x spider.py
+$ ./spider.py
+\end{verbatim}
+To doanload more papers, change the value of max$\backslash$$_{\text{pdf}}$ to whatever you want.
+% Emacs 24.5.1 (Org mode 8.2.10)
+\end{document}

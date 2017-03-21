@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-max_img = 50
+max_pdf = 10
 
 class cd:
     """Context manager for changing the current working directory"""
@@ -63,7 +63,6 @@ def st(length,x):
 os.makedirs('pdf-files',exist_ok=True)
 url_head = 'pdf/1702.'
 cnt = 0
-max_pdf = 10
 with cd ('pdf-files'):
     for i in range (0,100000):
         s = st(5,i)
