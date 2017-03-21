@@ -13,4 +13,4 @@ Run the program directly and it will download 10 papers by default.
 $ chmod a+x spider.py
 $ ./spider.py
 #+END_SRC
-To doanload more papers, change the value of max\_pdf to whatever you want.
+To doanload more papers, change the value of max_pdf to whatever you want.
